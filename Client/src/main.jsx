@@ -1,6 +1,6 @@
 import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
-import { AppContextProvider } from "./Context/Appcontext.jsx";
+import { AppContext } from "./Context/Appcontext.jsx";
 
 import "./index.css";
 import App from "./App.jsx";
@@ -8,9 +8,9 @@ import App from "./App.jsx";
 createRoot(document.getElementById("root")).render(
   
     <BrowserRouter>
-      <AppContextProvider>
+      <AppContext>
         <App />
-      </AppContextProvider>
+      </AppContext>
     </BrowserRouter>
   
 );
