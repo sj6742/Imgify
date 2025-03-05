@@ -1,6 +1,6 @@
 import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
-import { AppContext } from "./Context/Appcontext.jsx";
+import { AppContext } from "./Context/AppContext.jsx";
 
 import "./index.css";
 import App from "./App.jsx";
